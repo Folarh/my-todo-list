@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(to right,rgb(125, 125, 171),rgb(0, 195, 255),rgb(61, 137, 169));
+    
+}
+.mb-4{
+    font-style: italic;
+    color: aquamarine;
+}
+
+.td{
+    font-style: italic;
+    color:rgb(56, 43, 43);
+}
+.container{
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color:black;
+    border:none;
+    background: rgba(42, 42, 151, 0.2);
+    max-width: 400px;
+}
+
+.todos li{
+    background: #3ad1ef;
+    color: rgb(56, 43, 43);
+}
+
+.delete{
+    cursor:pointer;
+}
+
